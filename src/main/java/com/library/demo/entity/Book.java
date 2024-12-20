@@ -31,8 +31,6 @@ public class Book {
     private String title;
 
     @Column
-    @ManyToOne
-    @JoinColumn(name = "author_id", nullable = false)
     private String author;
 
     @Column
